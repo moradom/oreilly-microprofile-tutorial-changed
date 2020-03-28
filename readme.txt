@@ -2,7 +2,7 @@
 
 setjdk.bat
 
-cd student
+cd working\student
 
 -- dev mode
 
