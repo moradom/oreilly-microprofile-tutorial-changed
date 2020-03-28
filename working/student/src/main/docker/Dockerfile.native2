@@ -1,0 +1,6 @@
+FROM cescoffier/native-base:latest
+#COPY build/*-runner /application
+WORKDIR /work/
+COPY target/student-1.0-SNAPSHOT-native-image-source-jar/*-runner /work/application
+EXPOSE 8080
+CMD ["./application", "-Dquarkus.http.host=0.0.0.0"]

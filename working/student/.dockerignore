@@ -1,0 +1,5 @@
+*
+!target/*-runner
+!target/student-1.0-SNAPSHOT-native-image-source-jar/*-runner
+!target/*-runner.jar
+!target/lib/*
